@@ -250,7 +250,7 @@ object Form1: TForm1
     CursorType = ctStatic
     Parameters = <>
     SQL.Strings = (
-      'SELECT * FROM LAB.CADASTRO.DISCIPLINA')
+      'SELECT * FROM CADASTRO.DISCIPLINA')
     Left = 280
     Top = 64
   end
