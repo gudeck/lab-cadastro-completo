@@ -23,9 +23,6 @@ object Form1: TForm1
     Caption = 'ToolBar1'
     Images = ImageList1
     TabOrder = 0
-    ExplicitLeft = 280
-    ExplicitTop = 32
-    ExplicitWidth = 150
     object btNovo: TToolButton
       Left = 0
       Top = 0
@@ -84,7 +81,6 @@ object Form1: TForm1
     Align = alLeft
     Enabled = False
     TabOrder = 1
-    ExplicitLeft = -6
     object Label2: TLabel
       Left = 8
       Top = 8
@@ -241,7 +237,6 @@ object Form1: TForm1
       end>
   end
   object Connection: TADOConnection
-    Connected = True
     ConnectionString = 
       'Provider=SQLOLEDB.1;Password=SenhaF0rte123;Persist Security Info' +
       '=True;User ID=sa;Initial Catalog=LAB'
